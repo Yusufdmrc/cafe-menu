@@ -1,0 +1,101 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.year {
+  font-style: italic;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(91, 12, 12);
+  border-color: rgb(91, 12, 12);
+}
+
+.bottom-line {
+  margin-top: 35px;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.coffee,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 12px;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(91, 12, 12);
+}
+
+a:active {
+  color: rgb(91, 12, 12);
+}
